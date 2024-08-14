@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="../CSS/Style.css">
+</head>
+<body>
+    <header>
+        <div class="ban">
+            <div class="suban">
+                <img src="../Recursos/Imagenes/logo.png" width="150px" height="150px">
+            </div>
+            <div class="suban">
+                <h1>Formtech</h1>
+            </div>
+            <div class="suban">
+                <nav>
+                    <a href="inicio.html" class="enlaces">Inicio</a>
+                    <a href="formulario.html" class="enlaces">Formularios</a>
+                    <a href="login.html" class="enlaces">Iniciar secion</a>
+                </nav>
+            </div>
+        </div>
+    
+    </header>
+    <main>
+        <div class="cont">
+            <div class="subcont">
+                <div class="form_mt">
+                    <h2>formato de recepcion de equipo para mantenimiento preventivo</h2>
+                    <h2>procesador</h2>
+                    <input id="pro" type="number" placeholder="Gigajersos">
+                    <h2>Memoria ram</h2>
+                    <input id="ram" type="number" placeholder="Megas de RAM">
+                    <h2>almacenaminto libre</h2>
+                    <input id="alm" type="number" placeholder="Gigabaits de almasenamiento libre">
+                    <h2>grafica</h2>
+                    <input id="resa" type="number" placeholder="modelo de la grafica">
+                    <h2>marca</h2>
+                    <input id="resl" type="number" placeholder="marca del equipo">
+
+                </div>
+            </div>
+            <div class="subcont">
+                <h2>Mantenimiento que se trabajara</h2>
+                 <div class="in_rd">
+                    <div class="sub_in_rd">
+                        <input id="rdpre" type="radio" name="rd">
+                        <h3>Preventivo</h3>
+                    </div>
+                    <div class="sub_in_rd">
+                        <input id="rddia" type="radio" name="rd">
+                        <h3>Diagnostico</h3>
+                    </div>
+                    <div class="sub_in_rd">
+                        <input id="rdcor" type="radio" name="rd">
+                        <h3>Correctivo</h3>
+                    </div>
+                 </div>
+                 <input type="text" placeholder="Comentarios" id="comt">
+
+                 <input type="button" value="Guardar" onclick="guar()">
+            </div>     
+        </div>
+    </main>
+    <footer>
+    </footer>
+    
+    <script src="../JavaScript/Script.js"></script>
+</body>
+</html>

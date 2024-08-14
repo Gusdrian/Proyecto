@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="../CSS/Style.css">
+</head>
+<body>
+    <header>
+        <div class="ban">
+            <div class="suban">
+                <img src="../Recursos/Imagenes/logo.png" width="150px" height="150px">
+            </div>
+            <div class="suban">
+                <h1>Formtech</h1>
+            </div>
+            <div class="suban">
+                <nav>
+                    <a href="inicio.html" class="enlaces">Inicio</a>
+                    <a href="formulario.html" class="enlaces">Formularios</a>
+                    <a href="login.html" class="enlaces">Iniciar secion</a>
+                </nav>
+            </div>
+        </div>
+        
+    </header>
+    <main>
+        <div class="cont">
+            <div class="subcont">
+                <div class="form_os">
+                    
+                    <h2>Formulario de requisitos para la intalacion de un sistema operativo</h2>
+                    
+                    <h2>procesador</h2>
+                    <input id="pro" type="number" placeholder="Gigahertz">
+                    <h2>Memoria ram</h2>
+                    <input id="ram" type="number" placeholder="Megas de RAM">
+                    <h2>almacenaminto libre</h2>
+                    <input id="alm" type="number" placeholder="Gigabyts de almasenamiento libre">
+                    <h2>resolucion</h2>
+                    <h3>ancho</h3>
+                    <input id="resa" type="number" placeholder="Resolucion de ancho en pixeles">
+                    <h3>alto</h3>
+                    <input id="resl" type="number" placeholder="Resolucion de largo en pixeles">
+
+                </div>
+            </div>
+            <div class="subcont">
+                <h2>Seleccione el Sistema Operativo que quiere instalar</h2>
+
+                <div class="so">
+                    <div class="sub_os">
+                        <img class="os" src="../Recursos/Imagenes/Windows-11-Icon.jpg" width="100px" height="100px" alt="os11" onclick="w11()">
+                    </div>
+                    <div class="sub_os">
+                        <img class="os" src="../Recursos/Imagenes/Windows-10.png" width="100px" height="100px" alt="os10" onclick="w10()">
+                    </div>
+                    <div class="sub_os">
+                        <img class="os" src="../Recursos/Imagenes/w8-01_l.png" width="100px" height="100px" alt="os8" onclick="w8()">
+                    </div>
+                    <div class="sub_os">
+                        <img class="os" src="../Recursos/Imagenes/Windows-7-logo.webp" width="100px" height="100px" alt="os7" onclick="w7()">
+                    </div>
+                   
+                </div>
+                <div class="so">
+                    <div class="sub_os">
+                        <img class="os" src="../Recursos/Imagenes/Linux-Debian.png" width="100px" height="100px" alt="osdb" onclick="db()">
+                    </div>
+                    <div class="sub_os">
+                        <img class="os" src="../Recursos/Imagenes/31472-todo-ubuntu-que-es-que-podemos-esperar-este.webp" width="110px" height="100px" alt="osub" onclick="ub()">
+                    </div>
+                    <div class="sub_os">
+                        <img class="os" src="../Recursos/Imagenes/Linux Mint Cinnamon.webp" width="130px" height="100px" alt="osmn" onclick="mn()">
+                    </div>
+                    <div class="sub_os">
+                        <img class="os" src="../Recursos/Imagenes/images.png" width="100px" height="100px" alt="osrh" onclick="rh()">
+                    </div>
+                </div>
+                <div class="so">
+                    <div class="sub_os">
+                        <img class="os" src="../Recursos/Imagenes/MacOS_logo_(2017).svg.png" width="100px" height="100px" alt="osmc" onclick="mc()">
+                    </div>
+                </div>
+
+                <h2>El equipo trabajara:</h2>
+                <div class="ans">
+                    <div class="sub_ans">
+                        <div class="sa_titulo">
+                            <h3>Micro Procesador</h3>
+                        </div>
+                        <div class="sa_resultado">
+                            <input id="ans_pro" type="text" readonly value="">
+                        </div>
+                    </div>
+                    <div class="sub_ans">
+                        <div class="sa_titulo">
+                            <h3>RAM</h3>
+                        </div>
+                        <div class="sa_resultado">
+                            <input id="ans_ram" type="text" readonly value="">
+                        </div>
+                    </div>
+                    <div class="sub_ans">
+                        <div class="sa_titulo">
+                            <h3>Almacenamiento libre</h3>
+                        </div>
+                        <div class="sa_resultado">
+                            <input id="ans_alm" type="text" readonly value="">
+                        </div>
+                    </div>
+                    <div class="sub_ans">
+                        <div class="sa_titulo">
+                            <h3>Resolucion del monitor</h3>
+                        </div>
+                        <div class="sa_resultado">
+                            <input id="ans_resal" type="text" readonly value="">
+                        </div>
+                    </div>
+                </div>
+                <h3>Veredicto del equipo</h3>
+                <input id="ans_ver" class="tx_ans" type="text" readonly>
+            </div>
+        </div>
+    </main>
+    <footer>
+      
+    </footer>
+    
+    <script src="../JavaScript/Script.js"></script>
+</body>
+</html>
