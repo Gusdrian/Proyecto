@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+background-color: grey;
+background-image: url(../Recursos/Imagenes/font.jpg);
+}
+.log{
+    background-color:white;
+    margin: 10vw 30vw 10vw 30vw;
+   border-radius: 30px;
+}
+.sublog{
+    padding: 2vw 6vw 2vw 6vw;
+    justify-content: center;    
+}
+h1{
+font-size: 50px;
+color: white;
+text-transform: capitalize;
+font-weight: 700
+}
+h2{
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 700
+}
+h3{
+    font-size: x-large;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+p{
+    font-size: larger;
+    text-align: justify;
+    color: white;
+}
+input{
+    font-size: xx-large;
+    margin: 2vw;
+}
+.bt{
+    padding: 1vw;
+    border-radius: 20px;
+    background-color: rgb(70, 175, 170);
+}
+#sub_log_ban{
+    background-color:rgb(36, 43, 85);
+    border-radius: 20px;
+}
+.ban{
+    background-color:rgb(36, 43, 85);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw;
+}
+a{
+    font-size: xx-large;
+    margin: 2vw;
+    padding: 2vw;
+    color: white;
+    border-radius: 20px;
+}
+a:hover{
+background-color: gray;
+}
+.cont{
+    justify-content: center;
+    display: flex;
+    margin: 5vw;
+}
+.subcont{
+    background-color:rgb(36, 43, 85);
+    border-radius: 30px;
+    padding: 2vw;
+    margin: 2vw;
+}
+.so{
+    display: flex;
+    justify-content: space-between;
+}
+.sub_os{
+    margin: 2vw;
+}
+.os{
+    padding: 1vw;
+}
+.os:hover{
+    background-color: gray;
+}
+.sa_resultado{
+    padding: 0 10vw 0 10vw;
+}
+#ans_ver{
+    border-radius: 10px;
+    font-size: 50px;
+}
+img{
+    border-radius: 10px;
+}
+.sub_in_rd{
+    display: flex;
+}
